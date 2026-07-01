@@ -1,0 +1,15 @@
+version: 2
+
+models:
+  - name: transactions_summary
+    columns:
+      - name: statut
+        tests:
+          - not_null
+          - unique
+      - name: nombre_transactions
+        tests:
+          - not_null
+      - name: montant_total
+        tests:
+          - not_null
