@@ -5,5 +5,5 @@ select
     avg(montant) as montant_moyen
 from {{ ref('transactions') }}
 where montant is not null
-and statut is not null
+and statut in ('validé', 'en attente')
 group by statut

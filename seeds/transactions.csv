@@ -1,7 +1,501 @@
-id_transaction,montant,statut,date
-1,150.0,validé,2024-01-01
-2,200.0,validé,2024-01-02
-3,,en attente,2024-01-02
-4,99.5,validé,
-5,200.0,,2024-01-03
-6,-50.0,validé,2024-01-03
+id_transaction,montant,statut,date,categorie,devise
+1,134.8,en attente,2024-05-05,remboursement,EUR
+2,3386.73,validé,2024-10-29,abonnement,EUR
+3,1015.05,,2024-10-14,remboursement,GBP
+4,2251.55,en attente,2024-01-04,remboursement,USD
+5,785.84,en attente,2024-02-22,achat,USD
+6,4239.0,en attente,2024-01-23,abonnement,GBP
+7,4612.25,validé,2024-10-09,virement,GBP
+8,1814.56,validé,2024-12-26,achat,EUR
+9,3867.61,validé,2024-04-29,achat,USD
+10,3182.07,en attente,2024-03-24,virement,EUR
+11,1342.22,validé,2024-11-07,remboursement,GBP
+12,825.38,en attente,2024-05-18,remboursement,EUR
+13,3882.24,validé,2024-01-17,virement,USD
+14,1062.8,en attente,2024-04-18,abonnement,USD
+15,3217.83,validé,2024-05-15,remboursement,EUR
+16,2699.5,en attente,2024-10-25,abonnement,EUR
+17,4987.71,en attente,2024-02-16,achat,EUR
+18,808.31,en attente,2024-11-01,achat,USD
+19,4980.65,en attente,2024-10-10,achat,EUR
+20,2689.48,en attente,2024-11-24,virement,EUR
+21,799.21,validé,2024-05-14,remboursement,GBP
+22,4353.89,en attente,2024-11-23,remboursement,EUR
+23,816.13,validé,2024-11-02,virement,USD
+24,4638.4,erreur,,remboursement,GBP
+25,437.41,en attente,2024-02-05,remboursement,EUR
+26,4734.77,validé,2024-05-15,abonnement,EUR
+27,3778.77,validé,2024-12-31,virement,USD
+28,3252.89,en attente,2024-09-21,abonnement,EUR
+29,329.49,validé,2024-10-28,remboursement,GBP
+30,364.26,validé,2024-04-27,achat,EUR
+31,363.58,validé,2024-05-22,abonnement,EUR
+32,3619.53,en attente,2024-05-04,abonnement,USD
+33,493.68,en attente,2024-06-30,abonnement,USD
+34,3648.09,validé,2024-02-01,abonnement,EUR
+35,555.25,validé,2024-04-07,abonnement,EUR
+36,1399.94,validé,2024-02-08,abonnement,GBP
+37,3264.2,validé,2024-02-17,remboursement,EUR
+38,2411.98,en attente,2024-01-31,remboursement,USD
+39,1891.15,erreur,,abonnement,EUR
+40,1096.33,validé,2024-10-23,achat,EUR
+41,2925.05,validé,2024-01-30,achat,EUR
+42,349.12,validé,2024-07-25,achat,GBP
+43,2976.65,validé,2024-08-02,virement,EUR
+44,3583.8,validé,2024-05-15,abonnement,EUR
+45,1506.99,en attente,2024-02-07,achat,USD
+46,2819.34,validé,2024-02-07,remboursement,GBP
+47,4666.96,validé,2024-05-05,virement,EUR
+48,4170.39,en attente,2024-11-09,achat,GBP
+49,3320.31,validé,2024-05-15,achat,EUR
+50,785.69,en attente,2024-11-05,remboursement,EUR
+51,3174.85,en attente,2024-09-15,abonnement,EUR
+52,4232.06,validé,2024-11-20,abonnement,EUR
+53,1601.14,annulé,2024-05-14,remboursement,USD
+54,2144.16,validé,2024-02-27,achat,EUR
+55,4174.63,validé,2024-08-08,remboursement,EUR
+56,4495.92,validé,2024-07-02,remboursement,EUR
+57,1774.86,en attente,2024-11-13,remboursement,EUR
+58,4881.27,validé,2024-07-30,achat,EUR
+59,1667.61,en attente,2024-12-08,remboursement,EUR
+60,3509.38,en attente,2024-01-20,abonnement,EUR
+61,4593.07,en attente,2024-06-05,remboursement,EUR
+62,884.96,erreur,,achat,EUR
+63,2551.93,en attente,2024-01-15,achat,EUR
+64,4813.05,en attente,2024-01-20,achat,GBP
+65,3645.44,en attente,2024-08-11,achat,USD
+66,958.49,validé,2024-12-28,abonnement,EUR
+67,4034.49,validé,2024-07-05,abonnement,EUR
+68,4604.65,en attente,2024-12-05,achat,EUR
+69,3337.8,en attente,2024-07-25,virement,GBP
+70,2108.03,en attente,2024-12-12,remboursement,GBP
+71,2036.32,validé,2024-06-04,virement,EUR
+72,2904.12,en attente,2024-08-26,abonnement,USD
+73,2560.76,validé,2024-12-03,achat,EUR
+74,3168.37,en attente,2024-02-17,remboursement,EUR
+75,1003.66,validé,2024-01-24,remboursement,USD
+76,3844.76,en attente,2024-07-31,remboursement,USD
+77,1227.48,validé,2024-02-24,abonnement,EUR
+78,4790.25,en attente,2024-01-26,remboursement,EUR
+79,4009.07,en attente,2024-08-14,abonnement,GBP
+80,804.2,en attente,2024-08-18,virement,EUR
+81,1393.78,en attente,2024-11-16,remboursement,EUR
+82,3570.59,validé,2024-05-19,virement,EUR
+83,412.08,validé,2024-04-28,abonnement,EUR
+84,330.5,en attente,2024-06-18,abonnement,USD
+85,4166.13,en attente,2024-10-26,achat,GBP
+86,39.42,en attente,2024-06-01,abonnement,USD
+87,3675.82,validé,2024-09-06,remboursement,EUR
+88,154.83,en attente,2024-12-08,abonnement,EUR
+89,4598.51,validé,2024-07-20,achat,EUR
+90,687.14,en attente,2024-04-03,achat,EUR
+91,1066.18,en attente,2024-06-21,abonnement,EUR
+92,4161.3,en attente,2024-02-11,abonnement,EUR
+93,269.91,en attente,2024-04-24,achat,EUR
+94,4748.56,validé,2024-01-11,remboursement,EUR
+95,3350.6,validé,2024-08-26,virement,EUR
+96,3040.16,validé,2024-03-24,virement,EUR
+97,4645.15,en attente,2024-07-22,remboursement,EUR
+98,4154.55,validé,2024-02-22,virement,GBP
+99,3983.17,validé,2024-06-26,abonnement,EUR
+100,3241.24,validé,2024-08-03,abonnement,EUR
+101,1817.32,en attente,2024-12-28,remboursement,USD
+102,2613.52,en attente,2024-11-11,abonnement,USD
+103,3657.82,en attente,2024-06-14,remboursement,EUR
+104,2259.5,en attente,2024-10-18,abonnement,EUR
+105,4239.86,annulé,2024-06-30,virement,EUR
+106,2984.81,en attente,2024-10-11,achat,GBP
+107,437.21,en attente,2024-09-07,remboursement,USD
+108,2459.2,validé,2024-02-17,virement,EUR
+109,1224.09,en attente,2024-08-30,virement,USD
+110,2756.44,en attente,2024-12-25,abonnement,EUR
+111,1160.38,validé,2024-06-10,achat,GBP
+112,3453.92,validé,2024-04-20,abonnement,EUR
+113,4883.27,en attente,2024-02-21,remboursement,EUR
+114,905.41,validé,2024-12-28,remboursement,EUR
+115,178.08,erreur,2024-03-05,abonnement,EUR
+116,2874.58,en attente,2024-09-02,abonnement,EUR
+117,266.37,en attente,2024-02-28,achat,USD
+118,2889.34,validé,2024-03-18,remboursement,GBP
+119,435.05,validé,2024-03-01,abonnement,GBP
+120,3095.91,en attente,2024-08-18,abonnement,EUR
+121,4950.26,en attente,2024-10-18,achat,GBP
+122,505.18,validé,2024-11-16,remboursement,EUR
+123,793.71,validé,2024-10-09,achat,EUR
+124,2197.57,,2024-01-17,remboursement,EUR
+125,3517.91,en attente,2024-02-06,remboursement,EUR
+126,3129.04,validé,2024-08-05,achat,GBP
+127,753.46,en attente,2024-03-13,achat,EUR
+128,1544.98,en attente,2024-08-12,achat,USD
+129,3501.67,en attente,2024-09-13,abonnement,USD
+130,208.91,en attente,2024-06-14,virement,EUR
+131,4809.94,validé,2024-12-10,virement,GBP
+132,3756.97,erreur,2024-08-14,virement,EUR
+133,2185.07,en attente,2024-02-16,abonnement,EUR
+134,1612.08,validé,2024-03-23,virement,USD
+135,1448.21,en attente,2024-10-08,achat,USD
+136,1269.47,validé,2024-07-25,achat,GBP
+137,280.48,en attente,2024-11-14,abonnement,USD
+138,1025.76,validé,2024-05-27,abonnement,USD
+139,4866.0,validé,2024-12-29,remboursement,EUR
+140,2765.73,validé,2024-04-25,achat,USD
+141,3242.07,validé,2024-09-12,virement,GBP
+142,2083.3,en attente,2024-08-29,remboursement,USD
+143,1924.09,validé,2024-02-05,virement,USD
+144,3940.71,en attente,2024-01-02,virement,EUR
+145,2903.82,en attente,2024-03-17,abonnement,GBP
+146,1668.88,en attente,2024-08-21,virement,EUR
+147,1201.64,en attente,2024-04-29,abonnement,EUR
+148,2370.15,en attente,2024-07-16,remboursement,USD
+149,639.97,en attente,2024-02-21,abonnement,EUR
+150,2290.07,validé,2024-07-28,remboursement,EUR
+151,4846.33,en attente,2024-11-15,abonnement,EUR
+152,4263.18,en attente,2024-06-11,abonnement,GBP
+153,248.95,,2024-05-27,remboursement,EUR
+154,501.23,validé,2024-08-15,remboursement,EUR
+155,239.49,validé,2024-05-30,virement,EUR
+156,1228.55,en attente,2024-10-16,remboursement,EUR
+157,3051.36,en attente,2024-11-13,remboursement,USD
+158,724.16,en attente,2024-11-22,virement,USD
+159,56.89,en attente,2024-05-27,remboursement,EUR
+160,1734.37,en attente,2024-11-23,abonnement,EUR
+161,1517.59,en attente,2024-09-04,achat,EUR
+162,1801.21,en attente,2024-12-24,virement,EUR
+163,3294.57,en attente,2024-01-05,achat,GBP
+164,4165.87,en attente,2024-04-27,virement,EUR
+165,3108.25,validé,2024-11-17,achat,EUR
+166,2209.71,en attente,2024-03-08,achat,EUR
+167,2083.36,validé,2024-03-08,virement,GBP
+168,1369.91,validé,2024-05-11,abonnement,EUR
+169,1700.19,validé,2024-08-27,achat,EUR
+170,1135.82,en attente,2024-10-12,virement,EUR
+171,79.45,validé,2024-08-20,virement,EUR
+172,4113.86,en attente,2024-02-25,remboursement,USD
+173,4409.6,,2024-11-08,remboursement,EUR
+174,2326.7,en attente,2024-11-28,abonnement,EUR
+175,4731.85,en attente,2024-09-09,achat,EUR
+176,2692.36,en attente,2024-08-20,virement,GBP
+177,3713.92,validé,2024-07-31,achat,USD
+178,4695.87,en attente,2024-01-17,virement,EUR
+179,4753.27,en attente,2024-02-20,virement,GBP
+180,3227.69,validé,2024-07-22,virement,EUR
+181,4745.56,en attente,2024-02-16,remboursement,GBP
+182,262.39,en attente,2024-05-04,remboursement,GBP
+183,4150.79,validé,2024-10-27,remboursement,EUR
+184,746.3,validé,2024-05-21,remboursement,EUR
+185,3994.58,validé,2024-12-04,achat,EUR
+186,3928.92,annulé,2024-01-09,remboursement,EUR
+187,3711.17,validé,2024-02-02,abonnement,USD
+188,2571.06,validé,2024-08-19,remboursement,GBP
+189,3894.46,,2024-08-22,achat,EUR
+190,4238.02,en attente,2024-12-17,achat,USD
+191,2223.38,validé,2024-06-13,remboursement,EUR
+192,3125.34,en attente,2024-07-14,virement,USD
+193,2156.69,validé,2024-12-01,remboursement,USD
+194,1150.18,en attente,2024-08-20,abonnement,USD
+195,1569.62,en attente,2024-12-06,virement,EUR
+196,3437.24,en attente,2024-02-04,achat,EUR
+197,491.86,en attente,2024-03-07,achat,GBP
+198,2812.8,validé,2024-07-29,virement,USD
+199,3608.09,en attente,2024-11-03,virement,EUR
+200,2541.99,validé,2024-12-02,abonnement,EUR
+201,1757.07,en attente,2024-02-28,virement,GBP
+202,2151.27,validé,2024-11-07,virement,EUR
+203,3516.47,en attente,2024-06-22,virement,EUR
+204,724.82,en attente,2024-02-05,remboursement,EUR
+205,2657.11,en attente,2024-08-02,abonnement,EUR
+206,1565.07,en attente,2024-10-17,achat,EUR
+207,3774.64,validé,2024-12-11,achat,EUR
+208,2125.83,en attente,2024-07-31,virement,EUR
+209,577.95,en attente,2024-02-26,virement,GBP
+210,3338.99,validé,2024-04-22,abonnement,GBP
+211,1030.07,validé,2024-03-11,virement,EUR
+212,48.57,en attente,2024-03-30,remboursement,USD
+213,1158.25,en attente,2024-02-06,abonnement,EUR
+214,2304.17,validé,2024-06-09,abonnement,GBP
+215,3204.31,en attente,2024-02-28,abonnement,EUR
+216,867.65,en attente,2024-12-19,virement,EUR
+217,538.26,en attente,2024-10-28,abonnement,GBP
+218,4353.92,en attente,2024-04-23,virement,EUR
+219,3169.79,validé,2024-06-27,virement,EUR
+220,740.76,validé,2024-03-29,remboursement,EUR
+221,3866.51,en attente,2024-08-25,abonnement,GBP
+222,4932.79,en attente,2024-11-17,virement,EUR
+223,2349.92,en attente,2024-05-20,achat,EUR
+224,1558.94,en attente,2024-01-20,achat,EUR
+225,392.89,validé,2024-11-10,abonnement,USD
+226,4771.62,validé,2024-08-18,remboursement,EUR
+227,2511.82,validé,2024-08-18,achat,EUR
+228,430.8,validé,2024-01-21,remboursement,USD
+229,2625.1,validé,2024-07-05,virement,EUR
+230,3874.58,validé,2024-11-19,virement,EUR
+231,2794.24,en attente,2024-05-25,virement,GBP
+232,1673.48,validé,2024-06-28,virement,USD
+233,3547.08,validé,2024-06-07,abonnement,EUR
+234,3353.88,validé,2024-11-26,abonnement,GBP
+235,1819.36,validé,2024-04-19,virement,USD
+236,4999.88,validé,2024-02-09,virement,EUR
+237,2703.46,validé,2024-12-04,virement,GBP
+238,1889.83,validé,2024-04-02,remboursement,USD
+239,1757.93,,,abonnement,GBP
+240,3745.2,en attente,2024-04-29,remboursement,EUR
+241,3924.01,validé,2024-07-07,abonnement,USD
+242,3892.84,en attente,2024-03-23,remboursement,GBP
+243,1257.52,en attente,2024-07-09,achat,GBP
+244,1432.46,validé,2024-05-19,abonnement,GBP
+245,2192.99,validé,2024-08-18,virement,EUR
+246,1988.31,en attente,2024-04-30,abonnement,EUR
+247,150.66,validé,2024-12-31,virement,EUR
+248,1441.53,en attente,2024-12-22,remboursement,USD
+249,36.2,validé,2024-01-10,virement,EUR
+250,2748.53,en attente,2024-02-26,virement,EUR
+251,248.27,en attente,2024-11-23,abonnement,EUR
+252,4526.68,validé,2024-11-19,remboursement,EUR
+253,17.81,en attente,2024-05-03,abonnement,EUR
+254,437.21,en attente,2024-02-04,achat,USD
+255,227.24,en attente,2024-07-10,virement,EUR
+256,347.12,validé,2024-12-02,achat,GBP
+257,1669.27,validé,2024-06-29,virement,EUR
+258,3426.57,en attente,2024-11-19,remboursement,EUR
+259,3883.19,en attente,2024-01-19,virement,EUR
+260,917.3,annulé,2024-06-07,abonnement,GBP
+261,192.74,validé,2024-05-26,virement,EUR
+262,1666.3,validé,2024-07-07,abonnement,USD
+263,4474.24,en attente,2024-06-22,remboursement,USD
+264,1843.06,en attente,2024-02-12,abonnement,EUR
+265,4975.54,validé,2024-10-06,virement,EUR
+266,1646.32,en attente,2024-06-05,abonnement,GBP
+267,841.56,en attente,2024-06-28,abonnement,EUR
+268,4558.92,en attente,2024-05-20,achat,EUR
+269,2036.99,validé,2024-01-16,remboursement,GBP
+270,2196.48,validé,2024-02-04,remboursement,EUR
+271,4747.84,validé,2024-11-05,remboursement,USD
+272,1866.35,validé,2024-10-20,remboursement,GBP
+273,1578.78,en attente,2024-05-07,achat,EUR
+274,2500.23,en attente,2024-10-14,achat,EUR
+275,3523.15,validé,2024-11-09,virement,USD
+276,687.28,validé,2024-08-19,remboursement,USD
+277,4054.46,en attente,2024-12-07,virement,EUR
+278,1458.91,en attente,2024-03-21,remboursement,EUR
+279,615.6,validé,2024-03-12,remboursement,USD
+280,2725.51,erreur,2024-10-09,remboursement,GBP
+281,338.08,en attente,2024-09-02,abonnement,USD
+282,378.02,en attente,2024-11-24,achat,USD
+283,2591.63,validé,2024-10-09,remboursement,EUR
+284,4554.45,validé,2024-03-04,remboursement,EUR
+285,1620.08,validé,2024-06-26,virement,EUR
+286,3178.93,en attente,2024-03-05,virement,GBP
+287,2517.84,validé,2024-10-30,remboursement,EUR
+288,3605.96,en attente,2024-10-15,achat,EUR
+289,4743.25,en attente,2024-11-29,remboursement,GBP
+290,3198.57,en attente,2024-11-17,virement,EUR
+291,4025.39,en attente,2024-06-01,abonnement,EUR
+292,798.82,en attente,2024-09-04,abonnement,EUR
+293,726.91,en attente,2024-06-25,abonnement,EUR
+294,2579.75,validé,2024-06-12,remboursement,USD
+295,2253.48,validé,2024-02-19,achat,EUR
+296,4322.18,en attente,2024-05-07,remboursement,EUR
+297,3608.43,validé,2024-03-22,abonnement,GBP
+298,4396.59,en attente,2024-01-12,achat,USD
+299,4833.77,validé,2024-10-25,virement,EUR
+300,2479.52,en attente,2024-05-26,achat,EUR
+301,4413.45,en attente,2024-07-25,virement,EUR
+302,2855.71,validé,2024-07-04,virement,EUR
+303,2257.27,en attente,2024-11-15,achat,EUR
+304,1975.58,en attente,2024-10-12,virement,EUR
+305,2550.52,validé,2024-01-24,achat,EUR
+306,4021.79,en attente,2024-03-17,remboursement,EUR
+307,1599.46,en attente,2024-11-11,virement,GBP
+308,4143.16,en attente,2024-12-28,virement,USD
+309,1848.11,validé,2024-08-01,virement,EUR
+310,1335.0,validé,2024-01-27,abonnement,EUR
+311,3608.7,en attente,2024-03-16,remboursement,EUR
+312,3505.6,validé,2024-01-10,abonnement,EUR
+313,2070.67,validé,2024-07-29,abonnement,EUR
+314,2598.23,en attente,2024-12-05,abonnement,GBP
+315,4783.86,en attente,2024-09-29,virement,GBP
+316,3862.23,en attente,2024-11-08,abonnement,EUR
+317,1402.24,en attente,2024-04-25,virement,EUR
+318,3454.3,en attente,2024-06-11,abonnement,EUR
+319,4673.08,en attente,2024-05-27,achat,GBP
+320,1904.67,en attente,2024-06-25,remboursement,EUR
+321,4772.1,annulé,2024-08-14,virement,USD
+322,4141.48,en attente,2024-10-14,virement,EUR
+323,3707.05,validé,2024-05-04,achat,GBP
+324,1171.85,validé,2024-07-30,virement,USD
+325,3856.12,validé,2024-10-08,remboursement,USD
+326,4404.43,en attente,2024-09-01,remboursement,EUR
+327,3233.03,validé,2024-11-29,remboursement,GBP
+328,4253.16,validé,2024-03-30,abonnement,EUR
+329,191.34,en attente,2024-09-10,remboursement,EUR
+330,56.24,validé,2024-06-20,virement,USD
+331,2721.07,en attente,2024-03-09,abonnement,EUR
+332,572.11,validé,2024-08-22,virement,EUR
+333,1619.27,erreur,2024-04-08,remboursement,GBP
+334,4486.24,en attente,2024-09-20,virement,EUR
+335,485.97,validé,2024-09-01,virement,EUR
+336,1856.23,erreur,2024-06-17,virement,GBP
+337,67.06,en attente,2024-12-20,remboursement,EUR
+338,2332.32,validé,2024-07-26,virement,EUR
+339,4703.77,en attente,2024-11-10,remboursement,EUR
+340,2396.13,en attente,2024-11-06,virement,USD
+341,4564.86,validé,2024-05-06,achat,GBP
+342,3521.79,validé,2024-10-15,achat,EUR
+343,4515.41,validé,2024-10-20,remboursement,EUR
+344,2606.5,validé,2024-12-14,remboursement,GBP
+345,4495.46,en attente,2024-01-29,abonnement,EUR
+346,2289.42,validé,2024-10-13,abonnement,EUR
+347,1985.78,validé,2024-04-21,achat,EUR
+348,3504.92,validé,2024-02-05,abonnement,EUR
+349,908.11,validé,2024-11-24,abonnement,EUR
+350,1918.57,en attente,2024-07-11,achat,GBP
+351,4302.83,validé,2024-04-01,abonnement,GBP
+352,4893.83,validé,2024-01-12,virement,USD
+353,2726.78,en attente,2024-04-27,remboursement,USD
+354,1385.49,validé,2024-01-17,abonnement,GBP
+355,4419.95,validé,2024-05-03,remboursement,EUR
+356,177.55,validé,2024-05-05,achat,USD
+357,2703.4,validé,2024-03-12,virement,EUR
+358,3660.27,en attente,2024-10-22,virement,EUR
+359,724.87,validé,2024-07-30,virement,EUR
+360,4743.12,validé,2024-11-16,abonnement,GBP
+361,4861.73,en attente,2024-09-25,virement,USD
+362,1506.44,validé,2024-10-02,abonnement,EUR
+363,1510.67,validé,2024-08-25,achat,GBP
+364,2088.37,validé,2024-07-17,remboursement,EUR
+365,3237.06,en attente,2024-07-08,achat,GBP
+366,960.5,en attente,2024-07-12,achat,EUR
+367,3810.87,validé,2024-09-02,remboursement,EUR
+368,4545.88,validé,2024-04-07,achat,USD
+369,3481.18,validé,2024-07-22,remboursement,GBP
+370,1422.47,en attente,2024-09-30,virement,EUR
+371,2568.95,en attente,2024-08-26,achat,USD
+372,1607.96,validé,2024-07-08,virement,USD
+373,4306.83,,,virement,GBP
+374,2899.92,en attente,2024-05-31,remboursement,EUR
+375,1905.4,validé,2024-09-12,virement,EUR
+376,2448.22,en attente,2024-08-23,remboursement,EUR
+377,3604.36,en attente,2024-04-04,achat,GBP
+378,4218.16,,,achat,USD
+379,3157.2,validé,2024-12-28,remboursement,EUR
+380,2285.49,validé,2024-11-12,abonnement,USD
+381,2614.28,erreur,,virement,GBP
+382,95.54,en attente,2024-04-01,achat,EUR
+383,1212.43,en attente,2024-06-30,virement,USD
+384,4796.9,en attente,2024-10-16,remboursement,EUR
+385,4142.03,validé,2024-11-30,achat,EUR
+386,1892.08,en attente,2024-01-29,achat,EUR
+387,4228.2,en attente,2024-10-16,achat,GBP
+388,1156.53,en attente,2024-05-18,achat,EUR
+389,1409.06,validé,2024-04-01,virement,EUR
+390,2939.31,en attente,2024-02-09,virement,EUR
+391,2837.81,en attente,2024-12-12,virement,USD
+392,708.35,validé,2024-09-13,virement,EUR
+393,1168.4,validé,2024-06-23,abonnement,EUR
+394,1293.97,erreur,2024-07-01,abonnement,USD
+395,2933.52,en attente,2024-02-13,virement,EUR
+396,419.37,validé,2024-07-13,remboursement,USD
+397,541.69,validé,2024-06-06,abonnement,EUR
+398,520.13,validé,2024-04-05,abonnement,USD
+399,2567.08,validé,2024-01-14,achat,EUR
+400,2988.65,en attente,2024-07-16,achat,EUR
+401,3898.05,validé,2024-10-19,remboursement,USD
+402,1351.91,en attente,2024-09-09,remboursement,EUR
+403,1387.05,en attente,2024-09-04,achat,EUR
+404,1240.48,en attente,2024-10-31,remboursement,USD
+405,1530.24,en attente,2024-06-19,abonnement,EUR
+406,2158.77,validé,2024-06-02,virement,GBP
+407,1012.25,en attente,2024-03-31,abonnement,EUR
+408,3477.84,en attente,2024-10-21,remboursement,EUR
+409,4084.31,en attente,2024-07-05,achat,GBP
+410,4986.35,validé,2024-12-15,achat,USD
+411,1056.15,en attente,2024-12-20,achat,USD
+412,704.5,en attente,2024-05-03,virement,EUR
+413,3947.49,validé,2024-08-17,abonnement,GBP
+414,2538.0,en attente,2024-10-05,achat,EUR
+415,4063.36,validé,2024-02-25,remboursement,EUR
+416,3067.26,en attente,2024-06-18,abonnement,EUR
+417,1219.57,,2024-10-12,remboursement,USD
+418,2320.69,validé,2024-06-25,achat,USD
+419,2085.72,validé,2024-02-29,remboursement,EUR
+420,2282.11,validé,2024-09-23,abonnement,EUR
+421,2196.45,en attente,2024-06-12,achat,EUR
+422,3524.97,annulé,2024-11-27,achat,EUR
+423,3705.04,validé,2024-10-09,remboursement,EUR
+424,4792.73,validé,2024-07-26,remboursement,EUR
+425,2166.35,validé,2024-11-10,remboursement,USD
+426,1950.29,validé,2024-04-15,virement,EUR
+427,3999.52,validé,2024-07-06,virement,EUR
+428,1319.14,en attente,2024-09-27,virement,GBP
+429,1968.79,validé,2024-06-27,virement,USD
+430,4070.55,en attente,2024-11-10,achat,EUR
+431,1200.48,validé,2024-04-03,virement,EUR
+432,2097.01,validé,2024-10-21,abonnement,USD
+433,3181.15,validé,2024-10-11,remboursement,USD
+434,943.62,en attente,2024-11-13,achat,EUR
+435,2428.2,validé,2024-07-15,abonnement,USD
+436,2084.0,en attente,2024-09-07,remboursement,EUR
+437,3981.45,validé,2024-05-29,achat,EUR
+438,1450.46,en attente,2024-10-16,abonnement,GBP
+439,2867.84,en attente,2024-10-05,virement,GBP
+440,217.64,en attente,2024-10-06,remboursement,USD
+441,4152.05,validé,2024-06-01,achat,USD
+442,4312.38,validé,2024-08-12,achat,EUR
+443,3690.69,en attente,2024-12-29,abonnement,EUR
+444,3926.4,validé,2024-01-31,virement,GBP
+445,2698.46,en attente,2024-12-26,virement,EUR
+446,4762.46,validé,2024-03-10,abonnement,EUR
+447,4336.57,validé,2024-12-25,remboursement,EUR
+448,1617.26,validé,2024-12-12,abonnement,USD
+449,3165.69,en attente,2024-07-11,abonnement,EUR
+450,4401.82,validé,2024-07-25,virement,EUR
+451,2445.34,validé,2024-02-17,abonnement,EUR
+452,3980.43,en attente,2024-04-21,abonnement,EUR
+453,1621.1,en attente,2024-06-21,remboursement,GBP
+454,3943.64,validé,2024-01-24,achat,USD
+455,4640.11,annulé,2024-01-01,abonnement,EUR
+456,4547.94,en attente,2024-03-22,virement,EUR
+457,1259.44,en attente,2024-12-06,remboursement,EUR
+458,1534.49,validé,2024-08-07,achat,EUR
+459,2331.71,annulé,2024-09-22,abonnement,EUR
+460,1652.23,annulé,2024-08-04,remboursement,USD
+461,1921.52,validé,2024-02-22,virement,EUR
+462,694.28,validé,2024-11-24,remboursement,EUR
+463,52.29,validé,2024-08-13,virement,EUR
+464,765.36,en attente,2024-11-11,abonnement,EUR
+465,511.32,validé,2024-10-28,abonnement,EUR
+466,1579.37,validé,2024-05-06,virement,EUR
+467,3008.99,en attente,2024-12-19,achat,EUR
+468,3038.57,validé,2024-07-19,virement,EUR
+469,3970.95,validé,2024-09-10,abonnement,EUR
+470,3194.03,validé,2024-09-27,achat,EUR
+471,668.59,en attente,2024-07-06,remboursement,USD
+472,3854.13,validé,2024-10-27,achat,EUR
+473,208.74,validé,2024-07-22,virement,GBP
+474,2123.64,en attente,2024-02-12,remboursement,EUR
+475,404.32,validé,2024-03-20,virement,USD
+476,3818.49,validé,2024-06-07,abonnement,EUR
+477,440.2,en attente,2024-02-29,abonnement,GBP
+478,1553.36,validé,2024-03-02,achat,EUR
+479,827.52,en attente,2024-09-24,virement,EUR
+480,3751.38,en attente,2024-03-01,achat,EUR
+481,1367.18,validé,2024-05-14,achat,USD
+482,1807.02,en attente,2024-10-17,remboursement,EUR
+483,3868.91,validé,2024-04-26,achat,EUR
+484,71.32,validé,2024-08-29,virement,USD
+485,903.02,validé,2024-10-10,abonnement,EUR
+486,2087.12,en attente,2024-05-18,achat,GBP
+487,2515.18,validé,2024-04-01,remboursement,GBP
+488,4770.86,validé,2024-08-26,virement,EUR
+489,2769.93,validé,2024-07-07,remboursement,EUR
+490,1526.51,validé,2024-08-25,virement,GBP
+491,4988.96,validé,2024-10-06,remboursement,EUR
+492,1991.18,annulé,2024-11-21,achat,EUR
+493,3252.25,,2024-02-23,remboursement,GBP
+494,2104.88,validé,2024-03-13,virement,EUR
+495,1080.51,,2024-07-09,abonnement,EUR
+496,2532.08,en attente,2024-02-08,achat,USD
+497,662.23,en attente,2024-05-13,virement,USD
+498,3679.41,en attente,2024-08-19,virement,EUR
+499,1021.54,validé,2024-03-20,achat,EUR
+500,1577.03,validé,2024-10-01,virement,EUR
