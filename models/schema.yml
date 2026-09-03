@@ -13,3 +13,21 @@ models:
       - name: montant_total
         tests:
           - not_null
+
+  - name: transactions_by_category
+    columns:
+      - name: categorie
+        tests:
+          - not_null
+      - name: devise
+        tests:
+          - not_null
+          - accepted_values:
+              arguments:
+                values: ['EUR', 'USD', 'GBP']
+      - name: nombre_transactions
+        tests:
+          - not_null
+      - name: montant_total
+        tests:
+          - not_null
