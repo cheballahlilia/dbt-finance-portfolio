@@ -1,15 +1,48 @@
-Welcome to your new dbt project!
+# dbt Finance Portfolio
 
-### Using the starter project
+Projet dbt de transformation et validation de données Finance.
 
-Try running the following commands:
-- dbt run
-- dbt test
+## Stack technique
 
+- dbt Core 1.11
+- DuckDB (local) + BigQuery (cloud)
+- Python 3.13
 
-### Resources:
-- Learn more about dbt [in the docs](https://docs.getdbt.com/docs/introduction)
-- Check out [Discourse](https://discourse.getdbt.com/) for commonly asked questions and answers
-- Join the [chat](https://community.getdbt.com/) on Slack for live discussions and support
-- Find [dbt events](https://events.getdbt.com) near you
-- Check out [the blog](https://blog.getdbt.com/) for the latest news on dbt's development and best practices
+## Modèles
+
+- `transactions_summary` — agrégation des transactions par statut
+- `transactions_by_category` — agrégation par catégorie et devise
+
+## Tests natifs (9 au total)
+
+- not_null, unique sur transactions_summary
+- not_null, accepted_values sur transactions_by_category
+
+## Lancer le projet
+
+### En local (DuckDB)
+```bash
+dbt seed
+dbt run
+dbt test
+```
+
+### Sur BigQuery
+```bash
+dbt seed --profile dbt_finance_bq
+dbt run --profile dbt_finance_bq
+dbt test --profile dbt_finance_bq
+```
+
+## Configuration BigQuery
+
+- Project : `data-quality-portfolio`
+- Dataset : `finance`
+- Location : `europe-west1`
+- Auth : Google Cloud OAuth (gcloud auth application-default login)
+
+## Résultats sur BigQuery
+
+- 500 transactions chargées
+- 2 vues créées : `transactions_summary`, `transactions_by_category`
+- 9/9 tests passés ✅
